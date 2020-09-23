@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bodyWrapper{
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: darkslateblue;
+    height: 100%;
+}
+#leftColumn{
+    float: left;
+    height: 100%;
+    background-color:darksalmon;
+    min-width: 20%;
+    max-width: 200px;
+    padding: 10px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#leftColumn hr{
+    width: 50%;
+    margin-bottom: 10px;
+}
+aside{
+    margin-top: 25px;
+}
+
+#mainBody{
+    min-width:10% ;
+    /* float: left; */
+    height: 1000px;
+    background-color:white;
+    
+}
+ #profilePic{
+    padding: 10px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+ }
+
+
+
+#rightHeader{
+    min-height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(204, 204, 204);
+}
+#headerStyle{
+    height: 20px;
+}
+
+.icon{
+    fill: white;
+    height: 30px;
+    padding: 5px;
+}
+
+
+/* Top Bar */
+#colorOne{
+    background-color:blueviolet;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#colorTwo{
+    background-color: salmon;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#colorThree{
+    background-color: salmon;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#colorFour{
+    background-color: dodgerblue;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(38, 132, 255);
+}
